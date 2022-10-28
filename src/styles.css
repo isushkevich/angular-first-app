@@ -7,3 +7,14 @@
   padding: 30px;
   border-radius: 5px;
 }
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.55);
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+}
