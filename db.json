@@ -19,10 +19,10 @@
       "reminder": false
     },
     {
-      "id": 3,
-      "text": "Food Shopping",
-      "day": "May 7th at 4:30pm",
-      "reminder": false
+      "id": 4,
+      "text": "Karate class",
+      "day": "May 7th at 1:00 pm",
+      "reminder": true
     }
   ]
 }
