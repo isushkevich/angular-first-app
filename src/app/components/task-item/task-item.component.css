@@ -1,8 +1,9 @@
 .task {
-  background: #c6e3c9;
+  background: #d0e1d2;
   margin-bottom: 15px;
   padding: 10px 20px;
   border-radius: 10px;
+  user-select: none;
 }
 
 .task.reminder {
@@ -24,9 +25,9 @@
   border-radius: 100px;
   cursor: pointer;
   font-size: 1.3em;
-  background-color: #b5e3ba;
+  background-color: rgba(255, 255, 255, 0);
   font-weight: bold;
-  padding: 1px;
+  padding: 1px 4px;
 }
 
 .delete-task-button:hover {
