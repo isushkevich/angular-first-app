@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  // it(`should have as title 'angular-first-app'`, () => {
+  // it(`should have as title 'angular-to-do-list'`, () => {
   //   const fixture = TestBed.createComponent(AppComponent);
   //   const app = fixture.componentInstance;
-  //   expect(app.title).toEqual('angular-first-app');
+  //   expect(app.title).toEqual('angular-to-do-list');
   // });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angular-first-app app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('angular-to-do-listto-do-list app is running!');
   });
 });
